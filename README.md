@@ -16,4 +16,4 @@ To use this project you should have installed a web server (such as Apache), PHP
  * In the created database 'links-storage' import the file run.sql (this file creates a table 'users' and set it to work properly).
 
 
-If you have any questions or recommendations for the project, please [create an issue](https://github.com/iafaso8/links-storage/issues/new) or text me on the email: vania.yankulova@gmail.com.
+If you have any questions or recommendations for the project, please [create an issue](https://github.com/VaniaYankulova/links-storage/issues/new) or text me on the email: vania.yankulova@gmail.com.
