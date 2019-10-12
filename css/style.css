@@ -1,0 +1,182 @@
+/* FONT-FAMILY */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body p, div{
+        font-size: 17px;
+    }
+/* FONT-FAMILY */
+
+
+
+/* NECCESSARY TO STYICKY-TOP THE NAVBAR */
+.container-fluid {
+    min-height: 500px;
+    padding: 0px;
+}
+/* NECCESSARY TO STYICKY-TOP THE NAVBAR */
+
+
+
+/* NAVBAR */
+    #nav-div {
+        display: none;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 0px;
+    }
+    .navbar a {
+        color: rgb(206, 215, 223);
+    }
+    .navbar .navbar-brand {
+        padding: 0px;
+    }
+    /* LOGO POSITION*/
+        nav a img#logo-img {
+            width: 150px;
+            position: relative;
+        }
+    /* LOGO POSITION*/
+
+    /* ZA NAS MENU NOWRAP */
+    #nowrap-words {
+        white-space: nowrap;
+    }
+    /* ZA NAS MENU NOWRAP */
+
+    /* LOGIN AND REGISTRATION BUTTONS ON ONE ROW */
+    #login-reg-menu-div li{
+        display:inline-block;
+    }
+    /* LOGIN AND REGISTRATION BUTTONS ON ONE ROW */
+   
+    @media only screen and (min-width: 630px) {
+        #login-reg-menu-div {
+            position: absolute;
+            right: 10px;
+        }
+    }
+    @media only screen and (max-width: 880px) {
+        .navbar-nav {
+            flex-direction: column !important
+        }
+    }
+    @media only screen and (min-width: 880px) {
+        #logout-div a {
+            position: absolute;
+            right: 10px;
+        }
+    }
+    @media only screen and (min-width: 420px) and (max-width: 577px) {
+        .navbar-nav {
+            padding-right: 50px;
+        }
+    }
+    @media only screen and (max-width: 497px) {
+        .navbar-nav {
+            padding-left: 5px;
+        }
+    }
+        
+    /* SEARCH FORM - INPUT AND SEARCH BUTTON TO BE ON THE SAME ROW */
+    #search-form  {
+        display: flex; /* 2. display flex to the rescue */
+        flex-direction: row;
+    }
+    /* SEARCH FORM - INPUT AND SEARCH BUTTON TO BE ON THE SAME ROW */
+
+    /* BORDER-RADIUS INPUT AND BUTTON IN SEARCH FORM */
+    #search-form #search-input {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #search-form #search-button {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    /* BORDER-RADIUS INPUT AND BUTTON IN SEARCH FORM */
+
+/* NAVBAR */
+
+
+
+/* TOP PAGE IMAGE */
+@media only screen and (min-width: 790px) {
+    .top-page-image img {
+        width: 100%;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 790px) and (min-width: 500px) {
+    .top-page-image img {
+        width: 100%;
+        height: 170px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .top-page-image img {
+        width: 100%;
+        height: 100px;
+    }
+}
+/* TOP PAGE IMAGE */
+
+
+
+/* .gray-line */
+.gray-line {
+    background-color: rgba(0, 0, 0, 0.8);    
+    height: 40px;
+    box-shadow: 0 0px 5px black;
+}
+/* .gray-line */
+
+
+
+/* SHORT IMPORTANT TEXT */
+#short-text {
+    font-size: 19px;
+    box-shadow: 0 0px 5px black;
+    margin-bottom: 0px;
+}
+.blue-line {
+    background-color: rgb(0,0,255, 0.5); 
+    height: 20px;
+    box-shadow: 0 0px 5px black;
+}
+/* SHORT IMPORTANT TEXT */
+
+
+
+/* FOOTER */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+footer .heading {
+    color: rgba(206, 215, 223, 0.6);
+    padding: 10px;
+    padding-bottom: 10px;
+}
+footer .row {
+    padding: 30px;
+    margin: 0px;
+}
+footer .row a {
+    padding: 30px;
+    padding-left: 10px;
+    color: rgb(206, 215, 223);
+}
+footer .row a#mailto-link {
+    position: relative;
+    bottom: 7px;
+}
+
+footer #copyright-div {
+    background: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    text-align: center;
+}
+/* FOOTER */

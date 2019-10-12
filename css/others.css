@@ -1,0 +1,44 @@
+
+
+/* LOGIN AND REGISTRATION FORM */
+form#login-form, form#registration-form {
+    text-align: left;
+    padding: 150px 50px;
+}
+/* LOGIN AND REGISTRATION FORM */
+
+
+
+
+/* ZAPISI.PHP */
+/* SAVE FORM */
+#save-form {
+    padding: 20px 100px;
+}
+/* SAVE FORM */
+
+/* BREAK LONG WORDS IN THE TABLE WITH LINKS AND DESCRIPTIONS */
+.links-description-table td:first-of-type {
+    word-wrap: break-word;
+    max-width: 400px;
+}
+/* BREAK LONG WORDS IN THE TABLE WITH LINKS AND DESCRIPTIONS */
+
+/* SHOW NO RECORDS WHEN THERE ARE NO RECORDS */
+p.no-records {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+/* SHOW NO RECORDS WHEN THERE ARE NO RECORDS */
+
+
+
+
+/* EDIT FORM */
+form#edit-form {
+    padding: 150px 100px;
+}
+/* EDIT FORM */
+
+/* ZAPISI.PHP */

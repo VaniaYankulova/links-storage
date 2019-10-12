@@ -1,0 +1,27 @@
+/* FADEIN FROM TOP */
+.fadein-top {
+    z-index: -1;
+    opacity: 0; 
+    position: relative; 
+    top: -300px;
+}
+/* FADEIN  FROM TOP */
+
+/* FADEIN-LEFT-QUICKLY - QUICKLY FADEIN FROM LEFT   */
+/* FADEIN-LEFT-SLOWLY - SLOWLY FADEIN FROM LEFT  */
+.fadein-left-slowly, .fadein-left-quickly {
+    z-index: -1;
+    opacity: 0; 
+    position: relative; 
+    left: -300px;
+}
+/* FADEIN-LEFT-SLOWLY - SLOWLY FADEIN FROM LEFT  */
+/* FADEIN-LEFT-QUICKLY - QUICKLY FADEIN FROM LEFT   */
+
+/* FADEIN */
+.fadein {
+    z-index: -1;
+    opacity: 0; 
+    position: relative;
+}
+/* FADEIN */
